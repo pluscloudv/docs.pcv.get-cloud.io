@@ -1,4 +1,4 @@
-module github.com/pluscloudopen/docs
+module github.com/pluscloudv/docs
 
 go 1.19
 

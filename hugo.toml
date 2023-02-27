@@ -1,4 +1,4 @@
-baseURL = 'https://docs.pco.get-cloud.io/'
+baseURL = 'https://docs.pcv.get-cloud.io/'
 languageCode = 'en-us'
 
 # Language settings
@@ -61,14 +61,14 @@ includeFields = ''
 # Language configuration
 [languages]
 [languages.en]
-title = "pluscloud open"
-description = "The technical documentation for pluscloud open"
+title = "pluscloud v"
+description = "The technical documentation for pluscloud v"
 languageName = "English"
 # Weight used for sorting.
 weight = 1
 #[languages.de]
-#title = "pluscloud open: docs"
-#description = "Die technische Dokumentation für die pluscloud open"
+#title = "pluscloud v"
+#description = "Die technische Dokumentation für die pluscloud v"
 #languageName ="Deutsch"
 #contentDir = "content/de"
 #time_format_default = "02.01.2006"
@@ -140,9 +140,9 @@ privacy_policy = "https://www.plusserver.com/en/privacy-policy"
 #url_latest_version = "https://example.com"
 
 # Repository configuration (URLs for in-page links to opening issues and suggesting changes)
-github_repo = "https://github.com/pluscloudopen/docs"
+github_repo = "https://github.com/pluscloudv/docs"
 # An optional link to a related project repo. For example, the sibling repository where your product code lives.
-#github_project_repo = "https://github.com/pluscloudopen/docs"
+#github_project_repo = "https://github.com/pluscloudv/docs"
 
 # Specify a value here if your content directory is not in your repo's root directory
 # github_subdir = ""
@@ -185,8 +185,8 @@ sidebar_search_disable = false
 [params.ui.feedback]
 enable = false
 # The responses that the user sees after clicking "yes" (the page was helpful) or "no" (the page was not helpful).
-yes = 'Glad to hear it! Please <a href="https://github.com/pluscloudopen/docs/issues/new">tell us how we can improve</a>.'
-no = 'Sorry to hear that. Please <a href="https://github.com/pluscloudopen/docs/issues/new">tell us how we can improve</a>.'
+yes = 'Glad to hear it! Please <a href="https://github.com/pluscloudv/docs/issues/new">tell us how we can improve</a>.'
+no = 'Sorry to hear that. Please <a href="https://github.com/pluscloudv/docs/issues/new">tell us how we can improve</a>.'
 
 # Adds a reading time to the top of each doc.
 # If you want this feature, but occasionally need to remove the Reading time from a single page, 
@@ -197,13 +197,13 @@ enable = true
 [params.links]
 # End user relevant links. These will show up on left side of footer and in the community page if you have one.
 [[params.links.user]]
-name = "pluscloud open"
-url = "https://www.plusserver.com/en/products/pluscloud-open"
+name = "pluscloud v"
+url = "https://www.plusserver.com/en/products/pluscloud"
 icon = "fa-solid fa-house"
-desc = "pluscloud open product page"
+desc = "pluscloud v product page"
 [[params.links.user]]
 name = "GitHub"
-url = "https://github.com/pluscloudopen"
+url = "https://github.com/pluscloudv"
 icon = "fab fa-github"
 desc = "Development takes place here!"
 # Developer relevant links. These will show up on right side of footer and in the community page if you have one.
