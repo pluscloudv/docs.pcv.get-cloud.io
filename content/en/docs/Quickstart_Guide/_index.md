@@ -1,6 +1,6 @@
 ---
-title: "Quick-Start_Guide"
-linkTitle: "Quick-Start_Guide"
+title: "Quickstart_Guide"
+linkTitle: "Quickstart_Guide"
 weight: 8
 date: 2023-02-21
 description: >
