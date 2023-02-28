@@ -14,9 +14,7 @@ Dieser Artikel behandelt Schritt für Schritt, wie nach dem initialen Netzwerkse
 
 Dieses Dokumentation setzt voraus, dass Sie sowohl Ihre Zugangsdaten (Benutzername und Kennwort) als auch Ihre Mandanten-URL bereits vorliegen haben. Mit diesen Daten kommen Sie direkt in das pluscloud vCloud Director Portal. Zusätzlich ist es hilfreich, Ihre weiteren öffentlichen IP-Adressen griffbereit zu haben. Diese können Sie auch im plusserver-Kundenportal einsehen.
 
-![help](./images/customer_portal.png)
+![customer_portal](./images/customer_portal.png)
 
----
 **Initiales Passwort ändern**
 Es wird aus Sicherheitsgründen empfohlen, das Administrator-Kennwort beim ersten Login zu ändern.
----
