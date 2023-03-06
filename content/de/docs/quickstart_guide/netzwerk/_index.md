@@ -47,4 +47,4 @@ Im Wizard für weitergeleitete Netzwerke sind folgende Parameter relevant:
 
 
 ---
-[**Nächste Seite**](/docs/quickstart_guide/vm)
+[**Nächste Seite**]({{< relref "../vm" >}})
