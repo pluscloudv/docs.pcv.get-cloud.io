@@ -4,12 +4,9 @@ linkTitle: "Quickstart_Guide"
 weight: 8
 date: 2023-02-21
 description: >
-  Show your user how to work through some end to end examples.
+  Dieses Dokument dient Ihnen zum schnellen Einstieg in die pluscloud v und die damit verbundenen Selfservice-Funktionen. Für die umfangreichen Selfservices sowie das Netzwerk-, Storage- und VM-Management nutzen Sie hier den VMware vCloud Director.
 ---
-
 > **Work in progress!!**
-
-Dieses Dokument dient Ihnen zum schnellen Einstieg in die pluscloud v und die damit verbundenen Selfservice-Funktionen. Für die umfangreichen Selfservices sowie das Netzwerk-, Storage- und VM-Management nutzen Sie hier den VMware vCloud Director.
 
 Dieser Artikel behandelt Schritt für Schritt, wie nach dem initialen Netzwerksetup VMs/vApps erstellt werden und diese final in externe Netze oder an das Internet angebunden werden. Umfangreiche Hilfe in technischen Portaldetails können Sie über das Fragezeichen in der oberen rechten Ecke bei VMware Online einsehen. Bei diesem und anderen Themen steht natürlich unser Support ebenfalls zur Verfügung.
 
@@ -21,9 +18,9 @@ Dieses Dokumentation setzt voraus, dass Sie sowohl Ihre Zugangsdaten (Benutzerna
 
 <img src="./images/kundenportal.png" width="400">
 
+
 > **Initiales Passwort ändern** Es wird aus Sicherheitsgründen empfohlen, das Administrator-Kennwort beim ersten Login zu ändern.
 
----
 
 Nach dem Login in die pluscloud sehen Sie eine Übersicht über das virtuelle Datacenter:
 
@@ -35,8 +32,3 @@ Mit einem Klick auf den im obigen Screenshot grün markierten Bereich gelangen S
 
 <img src="./images/dcverwaltung.png" width="400">
 
-
-
-
----
-[**Nächste Seite**](/docs/quickstart_guide/netzwerk)
