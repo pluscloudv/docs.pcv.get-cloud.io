@@ -1,8 +1,8 @@
 ---
 title: "Compute"
 linkTitle: "Compute"
-weight: 200
+weight: 300
 date: 2023-03-05
 description: >
-  Konfiguration von Rechenleistungen
+  Konfiguration von Virtuellen Maschinen
 ---
