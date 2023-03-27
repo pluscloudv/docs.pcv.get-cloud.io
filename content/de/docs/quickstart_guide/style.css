@@ -1,22 +1,26 @@
-.my-list {
+.img-effect {
     padding: 0;
-    margin: 50px 20px;
+    margin: 20px 5px;
     list-style: none;
 }
-.my-list li {
+.img-effect li {
     margin: 5px;
     display: inline-block;
     padding: 5px;
     border: 1px solid #f2f2f2;
 }
-.my-list li img {
+.img-effect li img {
     width: 500px;
     display: block;
 }
-.my-list li:hover img {
-    transform: scale(1.7);
+.img-effect li:hover img {
+    transform: scale(2);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    display: block;
+    margin: auto;
 }
+
+
 .tableformat table{
     width: auto;
 }
