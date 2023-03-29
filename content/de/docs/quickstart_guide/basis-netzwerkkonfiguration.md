@@ -4,7 +4,7 @@ linkTitle: "Basis-Netzwerkkonfiguration"
 weight: 2
 ---
 
-<link rel="stylesheet" type="text/css" href="/de/docs/quickstart_guide/style.css">
+<link rel="stylesheet" type="text/css" href="/de/docs/quickstart_guide/css/style.css">
 
 ## Übersicht Organisations-VDC-Netzwerke
  
@@ -12,7 +12,7 @@ Wenn Sie unter Netzwerk auf den Menüpunkt Netzwerke im linken Navigationsmenü 
 
 <div class="img-effect">
   <li>
-    <img src="/de/docs/quickstart_guide/images/netzwerke.png">
+    <img src="/de/docs/quickstart_guide/images/basis-netzwerkkonfiguration/netzwerke.png">
   </li>
 </div>
 
@@ -20,7 +20,7 @@ Ihr Organisationsnetzwerk sollte im Namen Ihre Kundennummer enthalten und bei Ne
 
 <div class="img-effect">
   <li>
-    <img src="/de/docs/quickstart_guide/images/netzwerk_config.png">
+    <img src="/de/docs/quickstart_guide/images/basis-netzwerkkonfiguration/netzwerk_config.png">
   </li>
 </div>
 
@@ -28,7 +28,7 @@ Ein fehlendes Organisationsnetzwerk sowie weitere Netze können Sie über die Sc
 
 <div class="img-effect">
   <li>
-    <img src="/de/docs/quickstart_guide/images/neues_netzwerk.gif">
+    <img src="/de/docs/quickstart_guide/images/basis-netzwerkkonfiguration/neues_netzwerk.gif">
   </li>
 </div>
 
@@ -99,7 +99,7 @@ Die Konfiguration der Edge-Gateway Appliance und ihrer Verbindungen erfolgt übe
 
 <div class="img-effect">
   <li>
-    <img src="/de/docs/quickstart_guide/images/edges.gif">
+    <img src="/de/docs/quickstart_guide/images/basis-netzwerkkonfiguration/edges.gif">
   </li>
 </div>
 
@@ -111,7 +111,7 @@ Wir empfehlen Ihnen, zuerst die Anwendungsportprofile zu setzen. Dazu muss der R
 
 <div class="img-effect">
   <li>
-    <img src="/de/docs/quickstart_guide/images/anwendungsportprofile.png">
+    <img src="/de/docs/quickstart_guide/images/basis-netzwerkkonfiguration/anwendungsportprofile.png">
   </li>
 </div>
 
@@ -121,7 +121,7 @@ Hier können Sie mit der Schaltfläche "NEU" ein neues Anwendungsportprofil anle
 
 <div class="img-effect">
   <li>
-    <img src="/de/docs/quickstart_guide/images/anwendungsportprofile-übersicht.png">
+    <img src="/de/docs/quickstart_guide/images/basis-netzwerkkonfiguration/anwendungsportprofile-übersicht.png">
   </li>
 </div>
 
@@ -131,7 +131,7 @@ Die nachfolgenden Parameter sollten Sie konfigurieren:
 
 <div class="img-effect">
   <li>
-    <img src="/de/docs/quickstart_guide/images/neues-anwendungsportprofil.png">
+    <img src="/de/docs/quickstart_guide/images/basis-netzwerkkonfiguration/neues-anwendungsportprofil.png">
   </li>
 </div>
 
@@ -163,7 +163,7 @@ Wir empfehlen Ihnen, als nächstes die NAT-Regeln zu setzen. Dazu muss der Reite
 
 <div class="img-effect">
   <li>
-    <img src="/de/docs/quickstart_guide/images/nat.png">
+    <img src="/de/docs/quickstart_guide/images/basis-netzwerkkonfiguration/nat.png">
   </li>
 </div>
 
@@ -174,7 +174,7 @@ Wir empfehlen Ihnen, als nächstes die NAT-Regeln zu setzen. Dazu muss der Reite
 
 <div class="img-effect">
   <li>
-    <img src="/de/docs/quickstart_guide/images/neu-nat.gif">
+    <img src="/de/docs/quickstart_guide/images/basis-netzwerkkonfiguration/neu-nat.gif">
   </li>
 </div>
 
@@ -374,7 +374,7 @@ Wichtig: Bitte lassen Sie die PSMANAGED-Regeln unbedingt bestehen. Diese haben e
 Um wieder zu übersicht des vDCs zu gelangen klicken sie oben auf "Datencenter" und wählen dann das gewünschte vDC aus.
 <div class="img-effect">
   <li>
-    <img src="/de/docs/quickstart_guide/images/zurück_zum_vdc.gif">
+    <img src="/de/docs/quickstart_guide/images/basis-netzwerkkonfiguration/zurück_zum_vdc.gif">
   </li>
 </div>
 

@@ -8,7 +8,7 @@ description: >
   > **Work in progress!!**
 ---
 
-<link rel="stylesheet" type="text/css" href="/de/docs/quickstart_guide/style.css">
+<link rel="stylesheet" type="text/css" href="/de/docs/quickstart_guide/css/style.css">
 
 Dieses Dokument dient Ihnen zum schnellen Einstieg in die pluscloud v und die damit verbundenen Selfservice-Funktionen. Für die umfangreichen Selfservices sowie das Netzwerk-, Storage- und VM-Management nutzen Sie hier den VMware vCloud Director.
 
@@ -16,7 +16,7 @@ Dieser Artikel behandelt Schritt für Schritt, wie nach dem initialen Netzwerkse
 
 <div class="img-effect">
   <li>
-    <img src="/de/docs/quickstart_guide/images/hilfe.png">
+    <img src="/de/docs/quickstart_guide/images/index/hilfe.png">
   </li>
 </div>
 
@@ -26,7 +26,7 @@ Dieses Dokumentation setzt voraus, dass Sie sowohl Ihre Zugangsdaten (Benutzerna
 
 <div class="img-effect">
   <li>
-    <img src="/de/docs/quickstart_guide/images/kundenportal.png">
+    <img src="/de/docs/quickstart_guide/images/index/kundenportal.png">
   </li>
 </div>
 
@@ -34,7 +34,7 @@ Nach dem Login in die pluscloud sehen Sie eine Übersicht über das virtuelle Da
 
 <div class="img-effect">
   <li>
-    <img src="/de/docs/quickstart_guide/images/vdcs.png">
+    <img src="/de/docs/quickstart_guide/images/index/vdcs.png">
   </li>
 </div>
 
@@ -42,18 +42,6 @@ Mit einem Klick auf den im obigen Screenshot grün markierten Bereich gelangen S
 
 <div class="img-effect">
   <li>
-    <img src="/de/docs/quickstart_guide/images/dcverwaltung.png">
+    <img src="/de/docs/quickstart_guide/images/index/dcverwaltung.png">
   </li>
 </div>
-
-
-
-## VM erstellen und verwalten
-
-Innerhalb des vCloud Directors werden VMs üblicherweise in vApps verpackt. Eine vApp kann als Gruppe für mehrere VMs dienen, wobei eine einzelne Zuordnung meist die empfehlenswerte Vorgehensweise ist.
-
-Für den täglichen operativen Betrieb ist die vApp-Hülle unsichtbar. Lediglich die Zuweisung von Netzwerken zu vApps muss bei der initialen Einrichtung beachtet werden, damit Netzwerke den VMs zur Verfügung stehen.
-
-### vApps erstellen
-
-Über den Menüpunkt vApp können Sie die bestehenden vApps einsehen und neue erstellen.

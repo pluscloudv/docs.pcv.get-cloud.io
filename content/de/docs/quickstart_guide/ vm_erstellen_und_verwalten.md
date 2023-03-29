@@ -1,17 +1,17 @@
 ---
-title: "Basis-Netzwerkkonfiguration"
-linkTitle: "Basis-Netzwerkkonfiguration"
+title: "VM erstellen und verwalten"
+linkTitle: "VM erstellen und verwalten"
 weight: 3
 ---
 
-<link rel="stylesheet" type="text/css" href="/de/docs/quickstart_guide/style.css">
+<link rel="stylesheet" type="text/css" href="/de/docs/quickstart_guide/css/style.css">
 
 ## vApps erstellen
 Über den Menüpunkt vApp können Sie die bestehenden vApps einsehen und neue erstellen.
 
 <div class="img-effect">
   <li>
-    <img src="/de/docs/quickstart_guide/images/v-apps.png">
+    <img src="/de/docs/quickstart_guide/images/vm_erstellen_und_verwalten/v-apps.png">
   </li>
 </div>
 
@@ -19,7 +19,7 @@ Die Erstellung läuft über den Button Neue vApp oder vApp aus einer OVF-Datei h
 
 <div class="img-effect">
   <li>
-    <img src="/de/docs/quickstart_guide/images/neue_v-apps.png">
+    <img src="/de/docs/quickstart_guide/images/vm_erstellen_und_verwalten/neue_v-apps.png">
   </li>
 </div>
 
@@ -29,11 +29,11 @@ In der vApp-Übersicht können Sie über den Menüpunkt Aktionen ein Netzwerk hi
 
 <div class="img-effect">
   <li>
-    <img src="/de/docs/quickstart_guide/images/v-appvm_netzwerk.png">
+    <img src="/de/docs/quickstart_guide/images/vm_erstellen_und_verwalten/v-app_netzwerk.png">
   </li>
 </div>
 
-### Virtuelle Maschinen erstellen
+## Virtuelle Maschinen erstellen
 
 Virtuelle Maschinen können über zwei Wege erstellt werden.
 
@@ -43,7 +43,7 @@ Optional kann unter "Lease verlängern" ein Ablaufdatum für die vApp eingestell
 
 <div class="img-effect">
   <li>
-    <img src="/de/docs/quickstart_guide/images/v-app_neue_vm.png">
+    <img src="/de/docs/quickstart_guide/images/vm_erstellen_und_verwalten/v-app_neue_vm.png">
   </li>
 </div>
 
@@ -51,7 +51,7 @@ Die zweite Möglichkeit bietet sich im Menüpunkt Virtuelle Maschinen. Hier kön
 
 <div class="img-effect">
   <li>
-    <img src="/de/docs/quickstart_guide/images/neue_vm.png">
+    <img src="/de/docs/quickstart_guide/images/vm_erstellen_und_verwalten/neue_vm.png">
   </li>
 </div>
 
@@ -59,7 +59,7 @@ In beiden Fällen sehen Sie dann einen identischen Wizard.
 
 <div class="img-effect">
   <li>
-    <img src="/de/docs/quickstart_guide/images/neue_vm_nicht_einschalten.png">
+    <img src="/de/docs/quickstart_guide/images/vm_erstellen_und_verwalten/neue_vm_nicht_einschalten.png">
   </li>
 </div>
 
@@ -81,7 +81,7 @@ Vorbereitete VM-Templates finden Sie im Katalog selfservice.
 
 <div class="img-effect">
   <li>
-    <img src="/de/docs/quickstart_guide/images/neue_vm_konfiguration.png">
+    <img src="/de/docs/quickstart_guide/images/vm_erstellen_und_verwalten/neue_vm_konfiguration.png">
   </li>
 </div>
 
@@ -128,7 +128,7 @@ Hier gibt es schon vor dem Erstellen deutlich mehr Einstellungsmöglichkeiten.
 
 <div class="img-effect">
   <li>
-    <img src="/de/docs/quickstart_guide/images/neue_vm_konfiguration_vorlage.png">
+    <img src="/de/docs/quickstart_guide/images/vm_erstellen_und_verwalten/neue_vm_konfiguration_vorlage.png">
   </li>
 </div>
 
@@ -185,13 +185,13 @@ Das Admin/Root Password wird von VMware generiert und ist unter "Virtuelle Masch
 
 <div class="img-effect">
   <li>
-    <img src="/de/docs/quickstart_guide/images/vm_details.png">
+    <img src="/de/docs/quickstart_guide/images/vm_erstellen_und_verwalten/vm_details.png">
   </li>
   <li>
-    <img src="/de/docs/quickstart_guide/images/vm_gastbetriebssystemanpassung.png">
+    <img src="/de/docs/quickstart_guide/images/vm_erstellen_und_verwalten/vm_gastbetriebssystemanpassung.png">
   </li>
   <li>
-    <img src="/de/docs/quickstart_guide/images/vm_password.png">
+    <img src="/de/docs/quickstart_guide/images/vm_erstellen_und_verwalten/vm_password.png">
   </li>
 </div>
 
@@ -203,7 +203,7 @@ Wichtig ist, dass die VM vorher ausgeschaltet ist. Die vAPP herunterzufahren rei
 
 <div class="img-effect">
   <li>
-    <img src="/de/docs/quickstart_guide/images/einschalten,_neuanpanpassung_erzwingen.png">
+    <img src="/de/docs/quickstart_guide/images/vm_erstellen_und_verwalten/einschalten,_neuanpanpassung_erzwingen.png">
   </li>
 </div>
 
@@ -211,10 +211,10 @@ Die Netzwerkanbindung kann nachträglich in der Virtuellen Maschine über Detail
 
 <div class="img-effect">
   <li>
-    <img src="/de/docs/quickstart_guide/images/vm_details.png">
+    <img src="/de/docs/quickstart_guide/images/vm_erstellen_und_verwalten/vm_details.png">
   </li>
   <li>
-    <img src="/de/docs/quickstart_guide/images/vm_netzwerkadapter.png">
+    <img src="/de/docs/quickstart_guide/images/vm_erstellen_und_verwalten/vm_netzwerkadapter.png">
   </li>
 </div>
 
@@ -222,6 +222,103 @@ Unter Netzwerkadapter und Hinzufügen wird der VM ein neues virtuelles Netzwerki
 
 <div class="img-effect">
   <li>
-    <img src="/de/docs/quickstart_guide/images/vm_netzwerk-mgmt.png">
+    <img src="/de/docs/quickstart_guide/images/vm_erstellen_und_verwalten/vm_netzwerk-mgmt.png">
+  </li>
+</div>
+
+In den Details einer VM im Bereich Hardware können Sie dieser weitere Festplatten mittels Hinzufügen zuordnen. Achten Sie beim Anlegen/Bearbeiten von Festplatten auf die korrekte gewünschte Einheit: MB oder GB. Bei der (Storage)-Richtlinie kann man sich an den bereits existierenden Festplatten orientieren oder eine andere auswählen. Das gleiche gilt für den Festplatten-(Controller)-Bus-Typ. Jeder Controller bekommt eine Bus-Nummer, maximal vier Controller sind möglich. Die Einheitennummer muss je Bus-Nummer eindeutig sein (SCSI IDs je Controller). Die Änderungen müssen noch durch Klick auf Speichern bestätigt werden.
+
+<div class="img-effect">
+  <li>
+    <img src="/de/docs/quickstart_guide/images/vm_erstellen_und_verwalten/vm_festplatten.png">
+  </li>
+  <li>
+    <img src="/de/docs/quickstart_guide/images/vm_erstellen_und_verwalten/vm_festplatten_mgmt.png">
+  </li>
+</div>
+
+## Benannte Festplatten
+Benannte Festplatten sind eigenständige virtuelle Festplatten, die Sie innerhalb Ihres Organisations-VDCs erstellen. Organisationsadministratoren und -benutzer mit den entsprechenden Rechten können Benannte Festplatten erstellen, entfernen und aktualisieren und mit virtuellen Maschinen verbinden. Man kann sich eine Benannte Festplatte ähnlich wie eine Wechselfestplatte/USB-Platte vorstellen.
+
+Wenn Sie eine Benannte Festplatte erstellen, wird diese mit einem Organisations-VDC, nicht aber direkt mit einer virtuellen Maschine verknüpft. Nach dem Erstellen der Festplatte in einem VDC kann der Festplattenbesitzer oder ein Administrator die Festplatte an eine beliebige im VDC bereitgestellte virtuelle Maschine anhängen bzw. von ihr trennen. In der virtuellen Maschine wird die Festplatte dann sichtbar und muss bei der ersten Benutzung mit einem vom OS der VM unterstützen Filesystem formatiert werden.
+
+Achtung: Benannte Festplatten werden nicht in VM Snapshots aufgenommen! Deshalb werden sie auch bei einem Backup NICHT mitgesichert! Soll einer VM eine normale zusätzliche Festplatte zugeordnet werden, so ist dies in den Hardwareeinstellungen der jeweiligen VM möglich (siehe 3.2).
+
+Benannte Festplatten erstellen Sie im Menü unter Speicher durch einen Klick auf Neu.
+
+<div class="img-effect">
+  <li>
+    <img src="/de/docs/quickstart_guide/images/vm_erstellen_und_verwalten/benannte_festplatten.png">
+  </li>
+  <li>
+    <img src="/de/docs/quickstart_guide/images/vm_erstellen_und_verwalten/benannte_festplatten_neu.png">
+  </li>
+  <li>
+    <img src="/de/docs/quickstart_guide/images/vm_erstellen_und_verwalten/benannte_festplatten_anhaengen.png">
+  </li>
+</div>
+
+
+<table class="tableformat">
+  <tr>
+    <th class="tableformat">Name</th>
+    <td class="tableformat">Name der Benannten Festplatte</td>
+  </tr>
+  <tr>
+    <th>Beschreibung</th>
+    <td>Freitextfeld zur Beschreibung</td>
+  </tr>
+  <tr>
+    <th>Speicherrichtlinie</th>
+    <td>Bestimmung des Performancelevels des Storages (Performance, High Performance)</td>
+  </tr>
+  <tr>
+    <th>Festplattengröße</th>
+    <td>Bestimmung der Größe der Benannten Festplatte in MB oder GB</td>
+  </tr>
+  <tr>
+    <th>Bus-Typ</th>
+    <td>Bestimmung des Bus-Typs: SCSI, SATA oder IDE</td>
+  </tr>
+  <tr>
+    <th>Bus-Subtyp</th>
+    <td>Bei SCSI-Festplatte: Auswahl des SCSI-Controllers</td>
+  </tr>
+  <tr>
+    <th>Freigabetyp</th>
+    <td>Siehe unten</td>
+  </tr>
+</table>
+
+Zustände:
+- Wenn „Keine“ ausgewählt ist, ist die erstellte benannte Festplatte nicht freigabefähig. 
+- Wenn „Datenträger“ ausgewählt ist, kann der erstellte benannte Datenträger an mehrere VMs auf Festplattenebene angehängt werden. 
+- Wenn „Controller“ ausgewählt ist, kann der erstellte benannte Datenträger an mehrere VMs auf Controller-Ebene angehängt werden. 
+
+## Speicherrichtlinien
+
+Unter dem Menüpunkt Speicherrichtlinien ist einsehbar, wie viel von welcher Storageklasse zur Verfügung steht und was belegt ist. In der Spalte Standard sehen Sie, welche Storageklasse beim Erstellen einer VM als Standard ausgewählt wird. Grundsätzlich steht Storage unbegrenzt zur Verfügung. Es werden aber Sicherheitslimits eingestellt, die jederzeit erhöht werden können. Die Limits sollen nur sicherstellen, dass fehlerhafte Skripte keine unnötigen Ressourcen belegen und Kosten verursachen.
+
+<div class="img-effect">
+  <li>
+    <img src="/de/docs/quickstart_guide/images/vm_erstellen_und_verwalten/speicherrichtlinien.png">
+  </li>
+</div>
+
+## Affinitätsregeln
+
+Unter dem Menüpunkt Affinitätsregeln können Sie Abhängigkeiten von VMs bzgl. ihrer physikalischen Nähe bestimmen. Jeweils unter dem Punkt Neu lassen sich daher Affinitätsregeln erstellen, welche die ausgewählten VMs auf den gleichen physikalischen Backends zusammenziehen (z.B. für Latenzoptimierung) oder unter Anti-Affinitätsregeln bewusst separieren (z.B. Risiko-Diversifizierung).
+
+<div class="img-effect">
+  <li>
+    <img src="/de/docs/quickstart_guide/images/vm_erstellen_und_verwalten/affinitätsregel.png">
+  </li>
+  <p>Affinitätsregel erstellen</p>
+  <li>
+    <img src="/de/docs/quickstart_guide/images/vm_erstellen_und_verwalten/neu_anti-affinitätsregel.png">
+  </li>
+  <p>Anti-Affinitätsregel erstellen</p>
+  <li>
+    <img src="/de/docs/quickstart_guide/images/vm_erstellen_und_verwalten/neu_affinitätsregel.png">
   </li>
 </div>
