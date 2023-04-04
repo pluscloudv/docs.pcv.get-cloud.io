@@ -68,9 +68,11 @@ Der Wizard fordert einen Namen für den anzulegenden Backupjob. Außerdem defini
 
 <div class="img-effect">
   <li>
+    <p>1</p>
     <img src="/de/docs/quickstart_guide/images/backup/jobs_create.png">
   </li>
   <li>
+    <p>2</p>
     <img src="/de/docs/quickstart_guide/images/backup/jobs_create_job_settings.png">
   </li>
 </div>
@@ -79,9 +81,11 @@ Des Weiteren bestimmen Sie die zu sichernden Objekte (VMs/ vApps).
 
 <div class="img-effect">
   <li>
+    <p>1</p>
     <img src="/de/docs/quickstart_guide/images/backup/jobs_create_virtual_machines.png">
   </li>
   <li>
+    <p>2</p>
     <img src="/de/docs/quickstart_guide/images/backup/jobs_create_virtual_machines_add_objects.png">
   </li>
 </div>
@@ -133,3 +137,16 @@ Grundsätzlich werden zwei Arten der Wiederherstellung unterschieden: Das Wieder
 Im Reiter VMs suchen Sie die VM heraus, die Sie wiederherstellen möchten. Dazu können Sie auch das Suchfeld nutzen. Dann wählen Sie Restore VM. Nun bieten sich zwei Optionen an: Keep oder Overwrite. Anschließend suchen Sie den passenden Wiederherstellungspunkt aus und bestätigen den Restore-Auftrag.
 
 Während Overwrite die VM überschreibt, erzeugt Keep eine weitere VM mit dem Suffix _restored in der vApp.
+<div class="img-effect">
+  <li>
+    <p>1</p>
+    <img src="/de/docs/quickstart_guide/images/backup/wiederherstellen.png">
+  </li>
+  <li>
+    <p>2</p>
+    <img src="/de/docs/quickstart_guide/images/backup/wiederherstellen_auswahl.png">
+  </li>
+</div>
+
+Nach einem Restore (Keep) einer VM, findet sich die VM _restored in der zugehörigen vApp wieder.
+

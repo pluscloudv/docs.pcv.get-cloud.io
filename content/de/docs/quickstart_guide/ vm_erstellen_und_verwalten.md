@@ -185,12 +185,15 @@ Das Admin/Root Password wird von VMware generiert und ist unter "Virtuelle Masch
 
 <div class="img-effect">
   <li>
+    <p>1</p>
     <img src="/de/docs/quickstart_guide/images/vm_erstellen_und_verwalten/vm_details.png">
   </li>
   <li>
+    <p>2</p>
     <img src="/de/docs/quickstart_guide/images/vm_erstellen_und_verwalten/vm_gastbetriebssystemanpassung.png">
   </li>
   <li>
+    <p>3</p>
     <img src="/de/docs/quickstart_guide/images/vm_erstellen_und_verwalten/vm_password.png">
   </li>
 </div>
@@ -211,9 +214,11 @@ Die Netzwerkanbindung kann nachträglich in der Virtuellen Maschine über Detail
 
 <div class="img-effect">
   <li>
+    <p>1</p>
     <img src="/de/docs/quickstart_guide/images/vm_erstellen_und_verwalten/vm_details.png">
   </li>
   <li>
+    <p>2</p>
     <img src="/de/docs/quickstart_guide/images/vm_erstellen_und_verwalten/vm_netzwerkadapter.png">
   </li>
 </div>
@@ -230,9 +235,11 @@ In den Details einer VM im Bereich Hardware können Sie dieser weitere Festplatt
 
 <div class="img-effect">
   <li>
+    <p>1</p>
     <img src="/de/docs/quickstart_guide/images/vm_erstellen_und_verwalten/vm_festplatten.png">
   </li>
   <li>
+    <p>2</p>
     <img src="/de/docs/quickstart_guide/images/vm_erstellen_und_verwalten/vm_festplatten_mgmt.png">
   </li>
 </div>
@@ -248,12 +255,15 @@ Benannte Festplatten erstellen Sie im Menü unter Speicher durch einen Klick auf
 
 <div class="img-effect">
   <li>
+    <p>1</p>
     <img src="/de/docs/quickstart_guide/images/vm_erstellen_und_verwalten/benannte_festplatten.png">
   </li>
   <li>
+    <p>2</p>
     <img src="/de/docs/quickstart_guide/images/vm_erstellen_und_verwalten/benannte_festplatten_neu.png">
   </li>
   <li>
+    <p>3</p>
     <img src="/de/docs/quickstart_guide/images/vm_erstellen_und_verwalten/benannte_festplatten_anhaengen.png">
   </li>
 </div>
@@ -311,14 +321,15 @@ Unter dem Menüpunkt Affinitätsregeln können Sie Abhängigkeiten von VMs bzgl.
 
 <div class="img-effect">
   <li>
+    <p>Übersicht</p>
     <img src="/de/docs/quickstart_guide/images/vm_erstellen_und_verwalten/affinitätsregel.png">
   </li>
-  <p>Affinitätsregel erstellen</p>
   <li>
+    <p>Affinitätsregel erstellen</p>
     <img src="/de/docs/quickstart_guide/images/vm_erstellen_und_verwalten/neu_anti-affinitätsregel.png">
   </li>
-  <p>Anti-Affinitätsregel erstellen</p>
   <li>
+    <p>Anti-Affinitätsregel erstellen</p>
     <img src="/de/docs/quickstart_guide/images/vm_erstellen_und_verwalten/neu_affinitätsregel.png">
   </li>
 </div>

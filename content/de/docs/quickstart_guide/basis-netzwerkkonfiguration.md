@@ -51,7 +51,7 @@ Im Wizard für weitergeleitete Netzwerke sind folgende Parameter relevant:
   </tr>
   <tr>
     <th>Distributed Routing</th>
-    <td>…</td>
+    <td><span style="color:red">…</span></td>
   </tr>
   <tr>
     <th>Name</th>
@@ -63,7 +63,7 @@ Im Wizard für weitergeleitete Netzwerke sind folgende Parameter relevant:
   </tr>
   <tr>
     <th>Dual Stack Modus</th>
-    <td>…</td>
+    <td><span style="color:red">…</span></td>
   </tr>
   <tr>
     <th>Gateway CIDR</th>
@@ -86,7 +86,6 @@ Im Wizard für weitergeleitete Netzwerke sind folgende Parameter relevant:
     <td> Falls ein spezifischer DNS Suffix benötigt wird, kann dieser hier eingetragen werden und wird automatisch bei den angeschlossenen VMs verwendet.</td>
   </tr>
 </table>
-
 
 
 > <span style="color:red"> **Bitte überarbeiten (Reihenfolge angepasst)** </span> Heißt scheinbar Edge-Verbindung
@@ -146,15 +145,15 @@ Die nachfolgenden Parameter sollten Sie konfigurieren:
   </tr>
   <tr>
     <th>Portprofil hinzufügen</th>     
-    <td>…</td>
+    <td><span style="color:red">…</span></td>
   </tr>
   <tr>
     <th>Port</th>     
-    <td>…</td>
+    <td><span style="color:red">…</span></td>
   </tr>
   <tr>
     <th>Beschreibung</th>     
-    <td>…</td>
+    <td><span style="color:red">…</span></td>
   </tr>
 </table>
 
@@ -212,7 +211,10 @@ Wir empfehlen Ihnen, als nächstes die NAT-Regeln zu setzen. Dazu muss der Reite
         <th>Anwendung</th>     
         <td>Hier wird ein Anwendungsprofil gewählt.</td>
       </tr>
-      <p>Die nachfolgenden Parameter können Sie zusätzlich konfigurieren:</p>   
+    </table>
+    <br>
+    <p>Die nachfolgenden Parameter können Sie zusätzlich konfigurieren:</p>   
+    <br>
     <table class="tableformat">
       <tr>
         <th class="tableformat">Zustand</th>
@@ -237,18 +239,18 @@ Wir empfehlen Ihnen, als nächstes die NAT-Regeln zu setzen. Dazu muss der Reite
         <td>
           Gibt an, dass die Firewall auf die interne Adresse einer NAT-Regel angewendet wird. Für SNAT ist die interne Adresse die ursprüngliche Quelladresse, bevor NAT durchgeführt wird. Für DNAT ist die interne Adresse die übersetzte Zieladresse, nachdem NAT durchgeführt wurde.
         </td>
-              <tr>
+      </tr>
+      <tr>
         <th>- Externe Adressübereinstimmung:</th>     
         <td>
           Gibt an, dass die Firewall auf die externe Adresse einer NAT-Regel angewendet wird. Für SNAT ist die externe Adresse die übersetzte Quelladresse, nachdem NAT durchgeführt wurde. Für DNAT ist die externe Adresse die ursprüngliche Zieladresse, bevor NAT durchgeführt wird.
         </td>
-              <tr>
+      </tr>
+      <tr>
         <th>- Bypass:</th>     
         <td>
           Firewallphase wird übersprungen.
         </td>
-      </tr>
-      </tr>
       </tr>
       <tr>
         <th>Interne IP</th>     
@@ -291,9 +293,12 @@ Wir empfehlen Ihnen, als nächstes die NAT-Regeln zu setzen. Dazu muss der Reite
       </tr>
       <tr>
         <th>Ziel-IP</th>     
-        <td>?</td>
+        <td><span style="color:red">?</span></td>
       </tr>
-      <p>Die nachfolgenden Parameter können Sie zusätzlich konfigurieren:</p>   
+    </table>
+    <br>
+    <p>Die nachfolgenden Parameter können Sie zusätzlich konfigurieren:</p>   
+    <br>
     <table class="tableformat">
       <tr>
         <th class="tableformat">Zustand</th>
@@ -318,18 +323,18 @@ Wir empfehlen Ihnen, als nächstes die NAT-Regeln zu setzen. Dazu muss der Reite
         <td>
           Gibt an, dass die Firewall auf die interne Adresse einer NAT-Regel angewendet wird. Für SNAT ist die interne Adresse die ursprüngliche Quelladresse, bevor NAT durchgeführt wird. Für DNAT ist die interne Adresse die übersetzte Zieladresse, nachdem NAT durchgeführt wurde.
         </td>
-              <tr>
+      </tr>
+      <tr>
         <th>- Externe Adressübereinstimmung:</th>     
         <td>
           Gibt an, dass die Firewall auf die externe Adresse einer NAT-Regel angewendet wird. Für SNAT ist die externe Adresse die übersetzte Quelladresse, nachdem NAT durchgeführt wurde. Für DNAT ist die externe Adresse die ursprüngliche Zieladresse, bevor NAT durchgeführt wird.
         </td>
-              <tr>
+      </tr>
+      <tr>
         <th>- Bypass:</th>     
         <td>
           Firewallphase wird übersprungen.
         </td>
-      </tr>
-      </tr>
       </tr>
       <tr>
         <th>Interne IP</th>     
@@ -353,18 +358,40 @@ Wir empfehlen Ihnen, als nächstes die NAT-Regeln zu setzen. Dazu muss der Reite
 Hier können Sie neue Regel erstellen mit "NEUE OBEN", welches eine neue Regel am Anfang der Liste erstellt, oder indem Sie eine Vorhandene Regel Auswählen und dann "NEUE DADRÜBER" auswählen, welches eine neue Regel über der Ausgewählten erstellt. 
 
 Die nachfolgenden Parameter sollten Sie konfigurieren:
-Art | Beschreibung
-----|-------------
-Name | Namen für die Regle
-Katekorie | Art der Regel (Nicht editierbar)
-Zustand | Definiert ob die Regel aktiv oder inaktiv ist
-Anwendung | Auswahl welche Anwenungsprofil angewendet werden soll (Sammlung von Freigaben für eine Anwendung)
-Quelle | Quell-Netzwerk (Beispiel: DNAT - jede Quelle / SNAT - internes Netzwerk)
-Ziel | Ziel-Netzwerk (Beispiel: DNAT - internes Netzwerk / SNAT - Belibiges Zeil)
-Aktion | Paket Zulassen / Verwerfen
-IP-Protokoll | Auswahl des für die Regel benutzen IP Protokolls
-Protokollierung | Über diese Option kann das im Edge-Gateway integrierte Logging des gesamten Traffics zu dieser Regel aktiviert werden.
-
+<table class="tableformat">
+  <tr>
+    <th class="tableformat">Name</th>
+    <td class="tableformat">Art der Regel (Nicht editierbar)</td>
+  </tr>
+  <tr>
+    <th>Zustand</th>     
+    <td>Definiert ob die Regel aktiv oder inaktiv ist</td>
+  </tr>
+  <tr>
+    <th>Anwendung</th>     
+    <td>Auswahl welche Anwenungsprofil angewendet werden soll (Sammlung von Freigaben für eine Anwendung)</td>
+  </tr>
+  <tr>
+    <th>Quelle</th>     
+    <td>Quell-Netzwerk (Beispiel: DNAT - jede Quelle / SNAT - internes Netzwerk)</td>
+  </tr>
+  <tr>
+    <th>Ziel</th>     
+    <td>Ziel-Netzwerk (Beispiel: DNAT - internes Netzwerk / SNAT - Belibiges Zeil)</td>
+  </tr>
+  <tr>
+    <th>Aktion</th>     
+    <td>Paket Zulassen / Verwerfen</td>
+  </tr>
+  <tr>
+    <th>Protokoll</th>     
+    <td>Auswahl des für die Regel benutzen IP Protokolls</td>
+  </tr>
+  <tr>
+    <th>Protokollierung</th>     
+    <td>Über diese Option kann das im Edge-Gateway integrierte Logging des gesamten Traffics zu dieser Regel aktiviert werden.</td>
+  </tr>
+</table>
 
 Mit Speichern übernehmen Sie die konfigurierten Regeln. 
 

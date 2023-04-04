@@ -16,9 +16,11 @@ Unter dem Menüpunkt Zugriffssteuerung befinden sich die Unterpunkte Benutzer, G
 
 <div class="img-effect">
   <li>
+    <p>1</p>
     <img src="/de/docs/quickstart_guide/images/organisationsadministration/neuer_benutzer.png">
   </li>
   <li>
+    <p>2</p>
     <img src="/de/docs/quickstart_guide/images/organisationsadministration/neuer_benutzer_erstellen.png">
   </li>
 </div>
@@ -78,9 +80,11 @@ Unter Rollen befinden sich bereits vorgefertigte Rollen. Eine Rolle beinhaltet i
 
 <div class="img-effect">
   <li>
+    <p>1</p>
     <img src="/de/docs/quickstart_guide/images/organisationsadministration/neue_rollen.png">
   </li>
   <li>
+    <p>2</p>
     <img src="/de/docs/quickstart_guide/images/organisationsadministration/neue_rollen_erstellen.png">
   </li>
 </div>
@@ -93,18 +97,23 @@ Mit der Konfiguration von Usern auf der Rolle vApp User ist es möglich, auch de
 
 <div class="img-effect">
   <li>
+    <p>1</p>
     <img src="/de/docs/quickstart_guide/images/organisationsadministration/neuer_benutzer_erstellen.png">
   </li>
   <li>
+    <p>2</p>
     <img src="/de/docs/quickstart_guide/images/organisationsadministration/vdcs.png">
   </li>
   <li>
+    <p>3</p>
     <img src="/de/docs/quickstart_guide/images/organisationsadministration/vm_details.png">
   </li>
   <li>
+    <p>4</p>
     <img src="/de/docs/quickstart_guide/images/organisationsadministration/gemeinsame_nutzung.png">
   </li>
   <li>
+    <p>5</p>
     <img src="/de/docs/quickstart_guide/images/organisationsadministration/gemeinsame_nutzung_anpassen.png">
   </li>
 </div>

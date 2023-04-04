@@ -1,13 +1,15 @@
+/* Vergrößerungseffekt für die Bilder*/
 .img-effect {
     padding: 0;
-    margin: 20px 5px;
+    display: flex;
+    margin: 20px;
     list-style: none;
 }
 .img-effect li {
     margin: 5px;
     display: inline-block;
-    padding: 5px;
-    border: 1px solid #f2f2f2;
+    padding: 2px;
+    border: 1px solid #d4d4d4;
 }
 .img-effect li img {
     width: 500px;
@@ -18,12 +20,17 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     display: block;
     margin: auto;
+    position: relative;
+    z-index: 100;
 }
-
-
+.img-effect p {
+    text-align: center;
+}
+/* Vergrößerungseffekt für die kleinen Bilder*/
 .mini-img-effect {
     padding: 0;
-    margin: 20px 5px;
+    display: flex;
+    margin: 20px;
     list-style: none;
 }
 .mini-img-effect li {
@@ -41,10 +48,10 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     display: block;
     margin: auto;
+    position: relative;
+    z-index: 100;
 }
-
-
-
+/* Formatierung für die Tabellen*/
 .tableformat table{
     width: auto;
 }
@@ -54,11 +61,7 @@
 .tableformat td{
     width: 80%;
 }
-
-
-
-
-
+/*Effekt für den erweiterbaren Text*/
 .accordion {
     border: 1px solid #ddd;
     border-radius: 4px;

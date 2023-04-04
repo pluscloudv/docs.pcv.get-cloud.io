@@ -19,9 +19,11 @@ Unter dem Menüpunkt Bibliotheken und Kataloge kann zunächst ein eigener Katalo
 
 <div class="img-effect">
   <li>
+    <p>1</p>
     <img src="/de/docs/quickstart_guide/images/template-kataloge_und_images/v-app_kataloge.png">
   </li>
   <li>
+    <p>2</p>
     <img src="/de/docs/quickstart_guide/images/template-kataloge_und_images/neuer-v-app_katalog.png">
   </li>
 </div>
@@ -32,9 +34,11 @@ Nach dem Erstellen können Sie über die drei Punkte vor dem Katalognamen die Ei
 
 <div class="img-effect">
   <li>
+    <p>1</p>
     <img src="/de/docs/quickstart_guide/images/template-kataloge_und_images/kataloge_freigeben.png">
   </li>
   <li>
+    <p>2</p>
     <img src="/de/docs/quickstart_guide/images/template-kataloge_und_images/kataloge_freigeben_mgmt.png">
   </li>
 </div>
@@ -45,9 +49,11 @@ Wenn der Katalog erstellt ist, können Sie unter dem Menüpunkt Inhaltsbibliothe
 
 <div class="img-effect">
   <li>
+    <p>1</p>
     <img src="/de/docs/quickstart_guide/images/template-kataloge_und_images/medien_upload.png">
   </li>
   <li>
+    <p>2</p>
     <img src="/de/docs/quickstart_guide/images/template-kataloge_und_images/medien_upload_hinzufügen.png">
   </li>
 </div>
@@ -58,9 +64,11 @@ Um ein VM-Image zu erzeugen, wählen Sie bitte unter Datencenter/Computing eine 
 
 <div class="img-effect">
   <li>
+    <p>1</p>
     <img src="/de/docs/quickstart_guide/images/template-kataloge_und_images/vorlage_erstellen_aus_vm.png">
   </li>
   <li>
+    <p>2</p>
     <img src="/de/docs/quickstart_guide/images/template-kataloge_und_images/vorlage_erstellen_aus_vm_mgmt.png">
   </li>
 </div>
@@ -69,12 +77,15 @@ Um die Vorlage als OVA-File herunterzuladen, navigieren Sie bitte zunächst in d
 
 <div class="img-effect">
   <li>
+    <p>1</p>
     <img src="/de/docs/quickstart_guide/images/template-kataloge_und_images/mein-katalog.png">
   </li>
   <li>
+    <p>2</p>
     <img src="/de/docs/quickstart_guide/images/template-kataloge_und_images/download_vorlage.png">
   </li>
 </div>
 
 > Auf Anfrage bietet plusserver zusätzlich die Möglichkeit an, größere Bestände Virtueller Maschinen direkt per URL herunterzuladen.
+
 
