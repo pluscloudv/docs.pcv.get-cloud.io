@@ -1,6 +1,6 @@
 ---
-title: "Documentation"
-linkTitle: "Documentation"
+title: "Technische Dokumentation"
+linkTitle: "Dokumentation"
 weight: 20
 menu:
   main:
@@ -8,9 +8,10 @@ menu:
 ---
 
 {{% pageinfo %}}
-This is a placeholder page that shows you how to use this template site.
+Diese Seite befindet sich noch im Aufbau. 
+
+Bitte nutzen Sie für noch nicht behandelte Themen die Ihnen bereits bekannten Dokumentationsquellen.
 {{% /pageinfo %}}
 
-
-This section is where the user documentation for your project lives - all the information your users need to understand and successfully use your project. 
-
+Diese Dokumentation beschreibt die Pluscloud V, eine in Deutschland gehostete IaaS-Plattform basierend auf VMware-Technologie.
+Innerhalb virtueller Datacenter können Sie virtuelle Netzwerk-, Speicher- und Rechenkomponenten verbinden um Ihre Anwendungsfälle flexibel und skalierbar abzubilden.
