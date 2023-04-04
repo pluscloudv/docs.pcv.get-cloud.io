@@ -74,7 +74,6 @@ contentDir = "content/de"
 time_format_default = "02.01.2006"
 time_format_blog = "02.01.2006"
 
-
 [markup]
 [markup.goldmark]
 [markup.goldmark.renderer]
@@ -167,7 +166,7 @@ prism_syntax_highlighting = true
 # User interface configuration
 [params.ui]
 #  Set to true to disable breadcrumb navigation.
-breadcrumb_disable = false
+breadcrumb_disable = true
 # Set to true to disable the About link in the site footer
 footer_about_disable = true
 # Set to false if you don't want to display a logo (/assets/icons/logo.svg) in the top navbar

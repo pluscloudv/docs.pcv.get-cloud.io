@@ -1,0 +1,105 @@
+/* Vergrößerungseffekt für die Bilder*/
+.img-effect {
+    padding: 0;
+    display: flex;
+    margin: 20px;
+    list-style: none;
+}
+.img-effect li {
+    margin: 5px;
+    display: inline-block;
+    padding: 2px;
+    border: 1px solid #d4d4d4;
+}
+.img-effect li img {
+    width: 500px;
+    display: block;
+}
+.img-effect li:hover img {
+    transform: scale(2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    display: block;
+    margin: auto;
+    position: relative;
+    z-index: 100;
+}
+.img-effect p {
+    text-align: center;
+}
+/* Vergrößerungseffekt für die kleinen Bilder*/
+.mini-img-effect {
+    padding: 0;
+    display: flex;
+    margin: 20px;
+    list-style: none;
+}
+.mini-img-effect li {
+    margin: 5px;
+    display: inline-block;
+    padding: 5px;
+    border: 1px solid #f2f2f2;
+}
+.mini-img-effect li img {
+    width: 200px;
+    display: block;
+}
+.mini-img-effect li:hover img {
+    transform: scale(2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    display: block;
+    margin: auto;
+    position: relative;
+    z-index: 100;
+}
+/* Formatierung für die Tabellen*/
+.tableformat table{
+    width: auto;
+}
+.tableformat th{
+    width: 20%;
+}
+.tableformat td{
+    width: 80%;
+}
+/*Effekt für den erweiterbaren Text*/
+.accordion {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    overflow: hidden;
+    margin: 10px 0;
+}
+.accordion-header {
+    display: block;
+    position: relative;
+    padding: 10px 10px 10px 30px;
+    margin: 0;
+    font-weight: bold;
+    cursor: pointer;
+    color: #333;
+}
+.accordion-header:before {
+    content: "\25B6";
+    font-size: 18px;
+    line-height: 1;
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: transform 0.3s ease-out;
+}
+.accordion-content {
+    display: none;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-top: 1px solid #ddd;
+}
+.accordion input[type="checkbox"] {
+    display: none;
+}
+.accordion input[type="checkbox"]:checked ~ .accordion-header:before {
+    content: "\25BC";
+    transform: translateY(-50%) rotate(90deg);
+}
+.accordion input[type="checkbox"]:checked ~ .accordion-content {
+    display: block;
+}
