@@ -150,3 +150,4 @@ Während Overwrite die VM überschreibt, erzeugt Keep eine weitere VM mit dem Su
 
 Nach einem Restore (Keep) einer VM, findet sich die VM _restored in der zugehörigen vApp wieder.
 
+<span style="color:red">Unvollständig</span>

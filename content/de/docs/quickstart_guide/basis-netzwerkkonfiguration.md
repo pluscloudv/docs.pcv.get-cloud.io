@@ -26,9 +26,15 @@ Ihr Organisationsnetzwerk sollte im Namen Ihre Kundennummer enthalten und bei Ne
 
 Ein fehlendes Organisationsnetzwerk sowie weitere Netze können Sie über die Schaltfläche Neu anlegen.
 
+
 <div class="img-effect">
   <li>
-    <img src="/de/docs/quickstart_guide/images/basis-netzwerkkonfiguration/neues_netzwerk.gif">
+    <p>1</p>
+    <img src="/de/docs/quickstart_guide/images/basis-netzwerkkonfiguration/neues_netzwerk.png">
+  </li>
+    <li>
+    <p>2</p>
+    <img src="/de/docs/quickstart_guide/images/basis-netzwerkkonfiguration/neues_netzwerk_bereich.png">
   </li>
 </div>
 
@@ -38,8 +44,12 @@ Im Wizard für weitergeleitete Netzwerke sind folgende Parameter relevant:
 
 <table class="tableformat">
   <tr>
-    <th class="tableformat">Typ</th>
-    <td class="tableformat">Unterscheidet, ob ein Netz weitergeleitet oder isoliert ist. Nur weitergeleitete Netzwerke bieten eine Konnektivität nach außen und eine Anbindung an das Edge-Gateway.</td>
+    <th class="tableformat">Bereich</th>
+    <td class="tableformat">Auswahl, ob das Netzwerk Konnektivität nur für VMs im aktuellen VDC bereitstellt oder in der Datencentergruppe teilnehmenden VDCs.</td>
+  </tr>
+  <tr>
+    <th>Typ</th>
+    <td>Unterscheidet, ob ein Netz weitergeleitet oder isoliert ist. Nur weitergeleitete Netzwerke bieten eine Konnektivität nach außen und eine Anbindung an das Edge-Gateway.</td>
   </tr>
   <tr>
     <th>Edge-Gateway</th>
@@ -51,7 +61,7 @@ Im Wizard für weitergeleitete Netzwerke sind folgende Parameter relevant:
   </tr>
   <tr>
     <th>Distributed Routing</th>
-    <td><span style="color:red">…</span></td>
+    <td><span style="color:red">Unvollständig</span></td>
   </tr>
   <tr>
     <th>Name</th>
@@ -63,7 +73,7 @@ Im Wizard für weitergeleitete Netzwerke sind folgende Parameter relevant:
   </tr>
   <tr>
     <th>Dual Stack Modus</th>
-    <td><span style="color:red">…</span></td>
+    <td>Ermöglicht, dass das Netzwerk sowohl ein IPv4-Subnetz als auch ein IPv6-Subnetz hat.</td>
   </tr>
   <tr>
     <th>Gateway CIDR</th>
@@ -98,7 +108,12 @@ Die Konfiguration der Edge-Gateway Appliance und ihrer Verbindungen erfolgt übe
 
 <div class="img-effect">
   <li>
-    <img src="/de/docs/quickstart_guide/images/basis-netzwerkkonfiguration/edges.gif">
+    <p>1</p>
+    <img src="/de/docs/quickstart_guide/images/basis-netzwerkkonfiguration/edges_auswahl.png">
+  </li>
+    <li>
+    <p>2</p>
+    <img src="/de/docs/quickstart_guide/images/basis-netzwerkkonfiguration/edges_allgemein.png">
   </li>
 </div>
 
@@ -145,15 +160,19 @@ Die nachfolgenden Parameter sollten Sie konfigurieren:
   </tr>
   <tr>
     <th>Portprofil hinzufügen</th>     
-    <td><span style="color:red">…</span></td>
+    <td>Fügt ein weiteres Protprofil untern hinzu</td>
+  </tr>
+  <tr>
+    <th>Protokoll</th>     
+    <td>Auswahl des Protokolles</td>
   </tr>
   <tr>
     <th>Port</th>     
-    <td><span style="color:red">…</span></td>
+    <td>Auswahl des Port(Durch Komma getrennte Ports )</td>
   </tr>
   <tr>
     <th>Beschreibung</th>     
-    <td><span style="color:red">…</span></td>
+    <td><span style="color:red">Unvollständig</span></td>
   </tr>
 </table>
 
@@ -171,9 +190,15 @@ Wir empfehlen Ihnen, als nächstes die NAT-Regeln zu setzen. Dazu muss der Reite
 
 #### NAT Regel erstellen
 
+
 <div class="img-effect">
   <li>
-    <img src="/de/docs/quickstart_guide/images/basis-netzwerkkonfiguration/neu-nat.gif">
+    <p>1</p>
+    <img src="/de/docs/quickstart_guide/images/basis-netzwerkkonfiguration/neu-nat.png">
+  </li>
+  <li>
+    <p>2</p>
+    <img src="/de/docs/quickstart_guide/images/basis-netzwerkkonfiguration/neu-nat_auswahl.png">
   </li>
 </div>
 
@@ -293,7 +318,7 @@ Wir empfehlen Ihnen, als nächstes die NAT-Regeln zu setzen. Dazu muss der Reite
       </tr>
       <tr>
         <th>Ziel-IP</th>     
-        <td><span style="color:red">?</span></td>
+        <td><span style="color:red">Unvollständig</span></td>
       </tr>
     </table>
     <br>
@@ -401,11 +426,20 @@ Wichtig: Bitte lassen Sie die PSMANAGED-Regeln unbedingt bestehen. Diese haben e
 Um wieder zu übersicht des vDCs zu gelangen klicken sie oben auf "Datencenter" und wählen dann das gewünschte vDC aus.
 <div class="img-effect">
   <li>
-    <img src="/de/docs/quickstart_guide/images/basis-netzwerkkonfiguration/zurück_zum_vdc.gif">
+    <p>1</p>
+    <img src="/de/docs/quickstart_guide/images/basis-netzwerkkonfiguration/zurück_zum_vdc_netzwerk.png">
+  </li>
+  <li>
+    <p>2</p>
+    <img src="/de/docs/quickstart_guide/images/basis-netzwerkkonfiguration/zurück_zum_vdc_datencenter.png">
+  </li>
+  <li>
+    <p>3</p>
+    <img src="/de/docs/quickstart_guide/images/basis-netzwerkkonfiguration/zurück_zum_vdc_vms.png">
   </li>
 </div>
 
 
 ### Loadbalancing einrichten
 
-Deaktiviert?
+<span style="color:red">Unvollständig</span>
